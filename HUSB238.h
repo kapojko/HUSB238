@@ -66,7 +66,7 @@ enum HUSB238_SrcPDOSelect {
 };
 
 enum HUSB238_CommandFunc {
-    HUSB238_CommandFunc_REQUEST_SELECTED_PDO = 000,
+    HUSB238_CommandFunc_REQUEST_SELECTED_PDO = 001,
     HUSB238_CommandFunc_SEND_GET_SRC_CAP = 004,
     HUSB238_CommandFunc_SEND_HARD_RESET = 020,
 };
